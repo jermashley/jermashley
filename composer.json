@@ -7,14 +7,18 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/jermashley/bootstrap"
+            "url": "https://github.com/jermashley/bootstrap",
+            "url": "https://github.com/mervick/material-design-icons",
+            "url": "https://github.com/FortAwesome/Font-Awesome"
         }
     ],
     "require": {
         "php": ">=5.6.4",
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0",
-        "jermashley/bootstrap": "dev-develop"
+        "jermashley/bootstrap": "dev-develop",
+        "mervick/material-design-icons": "dev-master",
+        "FortAwesome/Font-Awesome": "dev-master"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",

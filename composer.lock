@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d47140e04ce773e874a75e602e19ed08",
-    "content-hash": "2b127669574d4dc2ee9dc85b90bdb3ec",
+    "hash": "6fddda8e06fda75233455af086ddc1a9",
+    "content-hash": "5d1ab0ed214cc697b0df04fc1e63a90d",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -148,6 +148,58 @@
                 "parser"
             ],
             "time": "2017-03-29 16:04:15"
+        },
+        {
+            "name": "fortawesome/font-awesome",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FortAwesome/Font-Awesome.git",
+                "reference": "ab2201e8c42c6af731a73d0e099085e17e1c6db3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/ab2201e8c42c6af731a73d0e099085e17e1c6db3",
+                "reference": "ab2201e8c42c6af731a73d0e099085e17e1c6db3",
+                "shasum": ""
+            },
+            "require-dev": {
+                "jekyll": "1.0.2",
+                "lessc": "1.4.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.6.x-dev"
+                }
+            },
+            "license": [
+                "OFL-1.1",
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Gandy",
+                    "email": "dave@fontawesome.io",
+                    "role": "Developer",
+                    "homepage": "http://twitter.com/davegandy"
+                }
+            ],
+            "description": "The iconic font and CSS framework",
+            "homepage": "http://fontawesome.io/",
+            "keywords": [
+                "awesome",
+                "bootstrap",
+                "font",
+                "font",
+                "fontawesome",
+                "icon"
+            ],
+            "support": {
+                "source": "https://github.com/FortAwesome/Font-Awesome/tree/master",
+                "issues": "https://github.com/FortAwesome/Font-Awesome/issues"
+            },
+            "time": "2017-05-23 20:43:44"
         },
         {
             "name": "jakub-onderka/php-console-color",
@@ -540,6 +592,48 @@
                 "storage"
             ],
             "time": "2017-04-28 10:15:08"
+        },
+        {
+            "name": "mervick/material-design-icons",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mervick/material-design-icons.git",
+                "reference": "674c5000e86488e454a001642650ddb0397a112c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mervick/material-design-icons/zipball/674c5000e86488e454a001642650ddb0397a112c",
+                "reference": "674c5000e86488e454a001642650ddb0397a112c",
+                "shasum": ""
+            },
+            "type": "library",
+            "license": [
+                "MIT",
+                "CC-BY-4.0"
+            ],
+            "authors": [
+                {
+                    "name": "Andrey Izman",
+                    "email": "izmanw@gmail.com"
+                }
+            ],
+            "description": "Google Material Design Icons For Using With Bootstrap",
+            "homepage": "http://github.com/mervick/material-design-icons",
+            "keywords": [
+                "bootstrap",
+                "google",
+                "icons",
+                "icons-web-font",
+                "material",
+                "material-design",
+                "web-font"
+            ],
+            "support": {
+                "source": "http://github.com/mervick/material-design-icons",
+                "issues": "https://github.com/mervick/material-design-icons/issues"
+            },
+            "time": "2016-04-13 01:15:04"
         },
         {
             "name": "monolog/monolog",
@@ -3377,7 +3471,9 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "jermashley/bootstrap": 20
+        "jermashley/bootstrap": 20,
+        "mervick/material-design-icons": 20,
+        "fortawesome/font-awesome": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
