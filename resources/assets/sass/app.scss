@@ -4,3 +4,28 @@
 // Icons
 @import "vendor/mervick/material-design-icons/scss/material-icons";
 @import "vendor/fortawesome/font-awesome/scss/font-awesome";
+
+
+
+
+.checker {
+    border: 1px solid;
+    &.red {
+        border-color: red;
+    }
+    &.green {
+        border-color: lime;
+    }
+    &.blue {
+        border-color: blue;
+    }
+}
+
+
+
+
+
+// Custom Styles
+@import "structure";
+@import "typography";
+@import "images";
