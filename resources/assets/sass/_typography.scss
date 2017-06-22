@@ -1,0 +1,44 @@
+// Home
+
+.homeHeroText {
+    width: 100%;
+    h1{
+        font-size: 2.5rem;
+        line-height: 2.75rem;
+        font-weight: 700;
+        width: 60%;
+        @media only screen and (max-width: 800px) {
+            font-size: 1.35rem;
+            line-height: 1.75rem;
+            width: 75%;
+        }
+        text-align: center;
+        color: rgba(255,255,255,1);
+        text-transform: uppercase;
+    }
+}
+
+
+// Page Title Headings
+
+.pageHeading {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: $text-primary;
+}
+
+
+
+
+// Photography
+.albumTitle {
+    height: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    h4 {
+        color: $text-primary;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+}

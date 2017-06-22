@@ -1,0 +1,51 @@
+html {
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	font-size: 13px;
+	font-family: 'NunitoSans';
+	color: $text-primary;
+	position: relative;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	margin: 0;
+}
+
+* {
+	text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.pageContent {
+	flex: 1 0 auto;
+	padding-top: 7.5rem;
+	padding-left: 2.5rem;
+	padding-right: 2.5rem;
+	padding-bottom: 10rem;
+	@media only screen and (max-width: 992px) {
+		padding-top: 3rem;
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+}
+.checker-red {
+	border: 1px solid red;
+}
+
+.checker-green {
+	border: 1px solid lime;
+}
+
+.checker-blue {
+	border: 1px solid blue;
+}
+
+.dropShadow-1 {
+	box-shadow: 0px 8px 15px rgba(0, 0, 0, .1);
+}

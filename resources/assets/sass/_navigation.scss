@@ -1,0 +1,137 @@
+nav, #navbarNav {
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: $nav-background;
+}
+
+nav {
+    button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1001;
+    }
+    button:focus {
+        outline: none;
+    }
+    .mdi {
+        font-size: 1.75rem;
+    }
+    span {
+        padding: 1rem;
+    }
+}
+
+.logo {
+    background: url('/images/common/logo.svg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    width: 4rem;
+    height: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.mobileLogo {
+    background: url('/images/common/logo.svg');
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: contain;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: .5rem 1rem 0;
+}
+
+#navFlex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1.75rem 2.5rem;
+    @media only screen and (max-width: 992px) {
+        flex-direction: column;
+        justify-content: flex-start;
+        border-bottom: .5rem solid $brand-primary;
+    }
+    .logo {
+        @media only screen and (max-width: 992px) {
+            margin-bottom: 1.5rem;
+        }
+    }
+}
+
+#NavLogo {
+    display: flex;
+    // flex-direction: row;
+    // justify-content: center;
+    -webkit-order: 2;
+    @media only screen and (max-width: 992px) {
+        -webkit-order: 1;
+    }
+}
+
+#navFirst {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-order: 1;
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        @media only screen and (max-width: 992px) {
+            flex-direction: column;
+            justify-content: flex-start;
+            text-align: center;
+        }
+    }
+    @media only screen and (max-width: 992px) {
+        -webkit-order: 2;
+    }
+}
+
+#navLast {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -webkit-order: 3;
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        @media only screen and (max-width: 992px) {
+            flex-direction: column;
+            justify-content: flex-start;
+            text-align: center;
+        }
+    }
+    @media only screen and (max-width: 992px) {
+        -webkit-order: 3;
+    }
+}
+
+.navLinks {
+    font-size: .85rem;
+    font-weight: 700;
+    color: $text-primary;
+    text-transform: uppercase;
+    li {
+        margin-right: 1rem;
+        @media only screen and (max-width: 992px) {
+            margin-top: 1.5rem;
+        }
+        a {
+            color: $text-primary;
+            text-decoration: none;
+            transition: 375ms ease;
+            padding-bottom: .5rem;
+            border-bottom: .3rem solid rgba(255,255,255,0);
+        }
+        a:hover {
+            border-bottom: .3rem solid $brand-primary;
+        }
+    }
+}

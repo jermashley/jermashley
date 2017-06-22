@@ -1,12 +1,16 @@
-// Bootstrap
-@import "vendor/jermashley/bootstrap/scss/bootstrap";
-
 // Icons
 @import "vendor/mervick/material-design-icons/scss/material-icons";
 @import "vendor/fortawesome/font-awesome/scss/font-awesome";
 
-// General
+// Variables
 @import "variables";
+
+// General
+@import "general";
+@import "fonts";
+@import "typography";
+@import "images";
+@import "footer";
 
 
 // Navigation
