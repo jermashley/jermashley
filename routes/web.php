@@ -12,5 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('common.default');
+    return view('home.home');
+});
+
+Route::get('/photography', function () {
+    return view('photography.index');
+});
+
+Route::get('/photography/weddings', function () {
+    return view('photography.weddings');
 });
