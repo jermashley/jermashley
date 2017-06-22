@@ -20,7 +20,7 @@
                     <div id="navFirst" class="">
                         <ul class="list-unstyled m-0">
                             <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Photography</a></li>
+                            <li><a href="/photography">Photography</a></li>
                         </ul>
                     </div>
                     
