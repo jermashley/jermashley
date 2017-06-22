@@ -14,9 +14,9 @@
   </defs>
   <title>logo</title>
   <g mask="url(#a)">
-    <path d="M71.11,142.22H657.78V728.89H71.11Z" fill="#232323" fill-rule="evenodd"/>
+    <path d="M71.11,142.22H657.78V728.89H71.11Z" fill="#646464" fill-rule="evenodd"/>
   </g>
-  <path d="M71.11,0H800V728.89H728.89V71.11H71.11Z" fill="#232323" fill-rule="evenodd"/>
-  <path d="M657.78,728.89h71.11V800H657.78Z" fill="#232323" fill-rule="evenodd"/>
-  <path d="M0,71.11H71.11v71.11H0Z" fill="#232323" fill-rule="evenodd"/>
+  <path d="M71.11,0H800V728.89H728.89V71.11H71.11Z" fill="#646464" fill-rule="evenodd"/>
+  <path d="M657.78,728.89h71.11V800H657.78Z" fill="#646464" fill-rule="evenodd"/>
+  <path d="M0,71.11H71.11v71.11H0Z" fill="#646464" fill-rule="evenodd"/>
 </svg>
