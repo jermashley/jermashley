@@ -11,10 +11,20 @@
 |
 */
 
+
+// Home
 Route::get('/', function () {
     return view('home.home');
 });
 
+
+// Portfolio
+Route::get('/portfolio', function () {
+    return view('portfolio.index');
+});
+
+
+// Photography
 Route::get('/photography', function () {
     return view('photography.index');
 });
@@ -29,4 +39,16 @@ Route::get('/photography/family', function () {
 
 Route::get('/photography/portraits', function () {
     return view('photography.portraits');
+});
+
+
+// Blog
+Route::get('/blog', function () {
+    return view('blog.index');
+});
+
+
+// Contact
+Route::get('/contact', function () {
+    return view('contact.index');
 });
