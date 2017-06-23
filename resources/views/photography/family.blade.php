@@ -8,8 +8,8 @@
         <div class="galleryContainer">
             <div class="galleryLinks">
                 <ul class="list-unstyled">
-                    <li><h5 class="current">Wedding</h5></li>
-                    <li><h5><a href="/photography/family">Family</a></h5></li>
+                    <li><h5><a href="/photography/weddings">Wedding</a></h5></li>
+                    <li><h5 class="current">Family</h5></li>
                     <li><h5><a href="/photography/portraits">Portraits</a></h5></li>
                 </ul>
             </div>

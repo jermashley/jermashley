@@ -11,7 +11,7 @@
 
     <body>
         <nav class="navbar navbar-toggleable-md navbar-light p-0 m-0">
-            <a class="navbar-brand hidden-md-up" href="/"><div class="mobileLogo"></div></a>
+            <a class="navbar-brand hidden-lg-up" href="/"><div class="mobileLogo"></div></a>
             <button class="navbar-toggler navbar-toggler-right hidden-lg-up" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" style="border: 0;">
               <span class="mdi mdi-menu"></span>
             </button>
