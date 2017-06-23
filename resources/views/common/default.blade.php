@@ -19,19 +19,19 @@
                 <div class="container w-100 navLinks" id="navFlex">
                     <div id="navFirst" class="">
                         <ul class="list-unstyled m-0">
-                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="/portfolio">Portfolio</a></li>
                             <li><a href="/photography">Photography</a></li>
                         </ul>
                     </div>
-                    
+
                     <div id="navLogo" class="flex-last">
                         <a href="/"><div class="logo"></div></a>
                     </div>
-    
+
                     <div id="navLast" class="">
                         <ul class="list-unstyled m-0">
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="/blog">Blog</a></li>
+                            <li><a href="/contact">Contact</a></li>
                         </ul>
                     </div>
                 </div>
@@ -64,6 +64,6 @@
         $(document).on('click',function(){
         $('.collapse').collapse('hide');
         })
-        </script>         
+        </script>
     </body>
 </html>

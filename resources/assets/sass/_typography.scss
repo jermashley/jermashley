@@ -1,3 +1,15 @@
+// General
+
+a {
+    color: darken($brand-primary, 20%);
+    text-decoration: none;
+    transition: 350ms ease;
+    &:hover {
+        color: $brand-primary;
+        text-decoration: none;
+    }
+}
+
 // Home
 
 .homeHeroText {
