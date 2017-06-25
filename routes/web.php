@@ -33,12 +33,12 @@ Route::get('/photography/weddings', function () {
     return view('photography.weddings');
 });
 
-Route::get('/photography/family', function () {
-    return view('photography.family');
-});
-
 Route::get('/photography/portraits', function () {
     return view('photography.portraits');
+});
+
+Route::get('/photography/point-n-shoot', function () {
+    return view('photography.point-n-shoot');
 });
 
 
