@@ -43,7 +43,7 @@ a {
 
 
 // Photography
-.albumTitle {
+.imageTitle {
     height: 4rem;
     display: flex;
     flex-direction: column;
@@ -52,5 +52,9 @@ a {
         color: $text-primary;
         font-weight: 700;
         text-transform: uppercase;
+    }
+    h3 {
+        color: $text-primary;
+        font-weight: 400;
     }
 }
