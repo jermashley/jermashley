@@ -36,4 +36,3 @@ mix.js('resources/assets/js/app.js', 'public/js')
 
 mix.copy('resources/assets/images', 'public/images', false );
 mix.copy('resources/assets/fonts', 'public/fonts', false );
-mix.copy('resources/assets/js/gallery.js', 'public/js');
