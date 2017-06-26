@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "6fddda8e06fda75233455af086ddc1a9",
-    "content-hash": "5d1ab0ed214cc697b0df04fc1e63a90d",
+    "hash": "164e0e04d49ee1f18e4d0a2a5556fc8d",
+    "content-hash": "b8571a975c3de95a57bef75ab538a30d",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -289,41 +289,6 @@
             "time": "2015-04-20 18:58:01"
         },
         {
-            "name": "jermashley/bootstrap",
-            "version": "dev-develop",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/jermashley/bootstrap.git",
-                "reference": "2ba49fe1e120fe35aeaf961e8971a2a047df9316"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/jermashley/bootstrap/zipball/2ba49fe1e120fe35aeaf961e8971a2a047df9316",
-                "reference": "2ba49fe1e120fe35aeaf961e8971a2a047df9316",
-                "shasum": ""
-            },
-            "type": "library",
-            "license": [
-                "MIT"
-            ],
-            "description": "Bootstrap Clone for JermAshley projects",
-            "keywords": [
-                "css",
-                "framework",
-                "front-end",
-                "js",
-                "mobile-first",
-                "responsive",
-                "sass",
-                "web"
-            ],
-            "support": {
-                "source": "https://github.com/jermashley/bootstrap/tree/develop",
-                "issues": "https://github.com/jermashley/bootstrap/issues"
-            },
-            "time": "2017-05-25 05:12:18"
-        },
-        {
             "name": "laravel/framework",
             "version": "v5.4.27",
             "source": {
@@ -597,48 +562,6 @@
                 "storage"
             ],
             "time": "2017-04-28 10:15:08"
-        },
-        {
-            "name": "mervick/material-design-icons",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mervick/material-design-icons.git",
-                "reference": "674c5000e86488e454a001642650ddb0397a112c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mervick/material-design-icons/zipball/674c5000e86488e454a001642650ddb0397a112c",
-                "reference": "674c5000e86488e454a001642650ddb0397a112c",
-                "shasum": ""
-            },
-            "type": "library",
-            "license": [
-                "MIT",
-                "CC-BY-4.0"
-            ],
-            "authors": [
-                {
-                    "name": "Andrey Izman",
-                    "email": "izmanw@gmail.com"
-                }
-            ],
-            "description": "Google Material Design Icons For Using With Bootstrap",
-            "homepage": "http://github.com/mervick/material-design-icons",
-            "keywords": [
-                "bootstrap",
-                "google",
-                "icons",
-                "icons-web-font",
-                "material",
-                "material-design",
-                "web-font"
-            ],
-            "support": {
-                "source": "http://github.com/mervick/material-design-icons",
-                "issues": "https://github.com/mervick/material-design-icons/issues"
-            },
-            "time": "2016-04-13 01:15:04"
         },
         {
             "name": "monolog/monolog",
@@ -1964,6 +1887,57 @@
             "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",
             "homepage": "https://github.com/tijsverkoyen/CssToInlineStyles",
             "time": "2016-09-20 12:50:39"
+        },
+        {
+            "name": "twbs/bootstrap",
+            "version": "4.0.0-alpha.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/twbs/bootstrap.git",
+                "reference": "65ffb1c3b6e94440812a2e228cb8e8be512652ec"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/twbs/bootstrap/zipball/65ffb1c3b6e94440812a2e228cb8e8be512652ec",
+                "reference": "65ffb1c3b6e94440812a2e228cb8e8be512652ec",
+                "shasum": ""
+            },
+            "replace": {
+                "twitter/bootstrap": "self.version"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.3.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jacob Thornton",
+                    "email": "jacobthornton@gmail.com"
+                },
+                {
+                    "name": "Mark Otto",
+                    "email": "markdotto@gmail.com"
+                }
+            ],
+            "description": "The most popular front-end framework for developing responsive, mobile first projects on the web.",
+            "homepage": "https://getbootstrap.com",
+            "keywords": [
+                "JS",
+                "css",
+                "framework",
+                "front-end",
+                "mobile-first",
+                "responsive",
+                "sass",
+                "web"
+            ],
+            "time": "2017-01-06 16:41:52"
         },
         {
             "name": "vlucas/phpdotenv",
@@ -3492,9 +3466,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "jermashley/bootstrap": 20,
-        "mervick/material-design-icons": 20,
-        "fortawesome/font-awesome": 20
+        "fortawesome/font-awesome": 20,
+        "twbs/bootstrap": 15
     },
     "prefer-stable": false,
     "prefer-lowest": false,

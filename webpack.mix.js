@@ -32,7 +32,9 @@ const { mix } = require('laravel-mix');
  */
 
 mix.js('resources/assets/js/app.js', 'public/js')
-   .sass('resources/assets/sass/app.scss', 'public/css');
+   .js('vendor/twbs/bootstrap/dist/js/bootstrap.js', 'public/js')
+   .sass('resources/assets/sass/app.scss', 'public/css')
+   .sass('vendor/twbs/bootstrap/scss/bootstrap.scss', 'public/css');
 
 mix.copy('resources/assets/images', 'public/images', false );
 mix.copy('resources/assets/fonts', 'public/fonts', false );
