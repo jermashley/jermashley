@@ -2,5 +2,7 @@
   "/js/app.js": "/js/app.js",
   "/css/app.css": "/css/app.css",
   "/mix.js": "/mix.js",
-  "/js/gallery.js": "/js/gallery.js"
+  "/js/gallery.js": "/js/gallery.js",
+  "/css/bootstrap.css": "/css/bootstrap.css",
+  "/js/bootstrap.js": "/js/bootstrap.js"
 }
