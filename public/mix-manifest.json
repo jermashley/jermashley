@@ -4,5 +4,7 @@
   "/mix.js": "/mix.js",
   "/js/gallery.js": "/js/gallery.js",
   "/css/bootstrap.css": "/css/bootstrap.css",
-  "/js/bootstrap.js": "/js/bootstrap.js"
+  "/js/bootstrap.js": "/js/bootstrap.js",
+  "/js/jquery.fancybox.js": "/js/jquery.fancybox.js",
+  "/css/jquery.fancybox.css": "/css/jquery.fancybox.css"
 }
