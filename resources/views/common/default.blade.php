@@ -5,8 +5,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>JermAshley</title>
         <link rel="shortcut icon" href="{{ asset('favicon.png') }}">
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css">
         <link rel="stylesheet" href="{{ asset('css/bootstrap.css') }}">
+        <link rel="stylesheet" href="{{ asset('css/jquery.fancybox.css') }}">
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
 
@@ -63,7 +63,7 @@
           crossorigin="anonymous"></script>
         <script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
         <script src="{{ asset('js/bootstrap.js') }}"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
+        <script src="{{ asset('js/jquery.fancybox.js') }}"></script>
         <script>
         $(document).on('click',function(){
         $('.collapse').collapse('hide');

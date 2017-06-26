@@ -34,7 +34,9 @@ const { mix } = require('laravel-mix');
 mix.js('resources/assets/js/app.js', 'public/js')
    .js('vendor/twbs/bootstrap/dist/js/bootstrap.js', 'public/js')
    .sass('resources/assets/sass/app.scss', 'public/css')
-   .sass('vendor/twbs/bootstrap/scss/bootstrap.scss', 'public/css');
+   .sass('vendor/twbs/bootstrap/scss/bootstrap.scss', 'public/css')
 
-mix.copy('resources/assets/images', 'public/images', false );
-mix.copy('resources/assets/fonts', 'public/fonts', false );
+mix.copy('resources/assets/images', 'public/images', false)
+   .copy('resources/assets/fonts', 'public/fonts', false)
+   .copy('node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css', 'public/css', false)
+   .copy('node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js', 'public/js', false);
