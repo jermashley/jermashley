@@ -16,37 +16,37 @@
 
             <div class="gallerySlider">
                 <div class="photoStack">
-                    <a href="#"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/weddings/1-hughes_140921_173335_full-min.jpg') }}" alt=""></div></a>
+                    <a href="{{ asset('images/galleries/weddings/1-hughes_140921_173335_full-min.jpg') }}" data-fancybox="weddings"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/weddings/1-hughes_140921_173335_full-min.jpg') }}" alt=""></div></a>
                 </div>
                 <div class="photoStack">
-                    <a href="#"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/weddings/2-692A7991-min.jpg') }}" alt=""></div></a>
+                    <a href="{{ asset('images/galleries/weddings/2-692A7991-min.jpg') }}" data-fancybox="weddings"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/weddings/2-692A7991-min.jpg') }}" alt=""></div></a>
                 </div>
                 <div class="photoStack">
-                    <a href="#"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/weddings/3-692A6481-min.jpg') }}" alt=""></div></a>
+                    <a href="{{ asset('images/galleries/weddings/3-692A6481-min.jpg') }}" data-fancybox="weddings"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/weddings/3-692A6481-min.jpg') }}" alt=""></div></a>
                 </div>
                 <div class="photoStack">
-                    <a href="#"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/weddings/4-DSC_0159_2-min.jpg') }}" alt=""></div></a>
+                    <a href="{{ asset('images/galleries/weddings/4-DSC_0159_2-min.jpg') }}" data-fancybox="weddings"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/weddings/4-DSC_0159_2-min.jpg') }}" alt=""></div></a>
                 </div>
                 <div class="photoStack">
-                    <a href="#"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/weddings/5-692A7913-min.jpg') }}" alt=""></div></a>
+                    <a href="{{ asset('images/galleries/weddings/5-692A7913-min.jpg') }}" data-fancybox="weddings"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/weddings/5-692A7913-min.jpg') }}" alt=""></div></a>
                 </div>
                 <div class="photoStack">
-                    <a href="#"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/weddings/6-692A2105-min.jpg') }}" alt=""></div></a>
+                    <a href="{{ asset('images/galleries/weddings/6-692A2105-min.jpg') }}" data-fancybox="weddings"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/weddings/6-692A2105-min.jpg') }}" alt=""></div></a>
                 </div>
                 <div class="photoStack">
-                    <a href="#"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/weddings/7-692A5568-min.jpg') }}" alt=""></div></a>
+                    <a href="{{ asset('images/galleries/weddings/7-692A5568-min.jpg') }}" data-fancybox="weddings"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/weddings/7-692A5568-min.jpg') }}" alt=""></div></a>
                 </div>
                 <div class="photoStack">
-                    <a href="#"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/weddings/8-692A8016-min.jpg') }}" alt=""></div></a>
+                    <a href="{{ asset('images/galleries/weddings/8-692A8016-min.jpg') }}" data-fancybox="weddings"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/weddings/8-692A8016-min.jpg') }}" alt=""></div></a>
                 </div>
                 <div class="photoStack">
-                    <a href="#"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/weddings/9-692A7145-min.jpg') }}" alt=""></div></a>
+                    <a href="{{ asset('images/galleries/weddings/9-692A7145-min.jpg') }}" data-fancybox="weddings"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/weddings/9-692A7145-min.jpg') }}" alt=""></div></a>
                 </div>
                 <div class="photoStack">
-                    <a href="#"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/weddings/10-692A6435-min.jpg') }}" alt=""></div></a>
+                    <a href="{{ asset('images/galleries/weddings/10-692A6435-min.jpg') }}" data-fancybox="weddings"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/weddings/10-692A6435-min.jpg') }}" alt=""></div></a>
                 </div>
                 <div class="photoStack">
-                    <a href="#"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/weddings/11-692A0030-min.jpg') }}" alt=""></div></a>
+                    <a href="{{ asset('images/galleries/weddings/11-692A0030-min.jpg') }}" data-fancybox="weddings"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/weddings/11-692A0030-min.jpg') }}" alt=""></div></a>
                 </div>
             </div>
 

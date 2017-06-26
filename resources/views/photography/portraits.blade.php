@@ -16,34 +16,34 @@
 
             <div class="gallerySlider">
                 <div class="photoStack">
-                    <a href="#"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/portraits/692A7595-min.jpg') }}" alt=""></div></a>
+                    <a href="{{ asset('images/galleries/portraits/692A7595-min.jpg') }}" data-fancybox="portraits"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/portraits/692A7595-min.jpg') }}" alt=""></div></a>
                 </div>
                 <div class="photoStack">
-                    <a href="#"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/portraits/692A4131-min.jpg') }}" alt=""></div></a>
+                    <a href="{{ asset('images/galleries/portraits/692A4131-min.jpg') }}" data-fancybox="portraits"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/portraits/692A4131-min.jpg') }}" alt=""></div></a>
                 </div>
                 <div class="photoStack">
-                    <a href="#"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/portraits/692A7631-min.jpg') }}" alt=""></div></a>
+                    <a href="{{ asset('images/galleries/portraits/692A7631-min.jpg') }}" data-fancybox="portraits"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/portraits/692A7631-min.jpg') }}" alt=""></div></a>
                 </div>
                 <div class="photoStack">
-                    <a href="#"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/portraits/692A0067-HDR_watermark-min.jpg') }}" alt=""></div></a>
+                    <a href="{{ asset('images/galleries/portraits/692A0067-HDR_watermark-min.jpg') }}" data-fancybox="portraits"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/portraits/692A0067-HDR_watermark-min.jpg') }}" alt=""></div></a>
                 </div>
                 <div class="photoStack">
-                    <a href="#"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/portraits/692A3514-min.jpg') }}" alt=""></div></a>
+                    <a href="{{ asset('images/galleries/portraits/692A3514-min.jpg') }}" data-fancybox="portraits"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/portraits/692A3514-min.jpg') }}" alt=""></div></a>
                 </div>
                 <div class="photoStack">
-                    <a href="#"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/portraits/hughes_140921_150518_full-min.jpg') }}" alt=""></div></a>
+                    <a href="{{ asset('images/galleries/portraits/hughes_140921_150518_full-min.jpg') }}" data-fancybox="portraits"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/portraits/hughes_140921_150518_full-min.jpg') }}" alt=""></div></a>
                 </div>
                 <div class="photoStack">
-                    <a href="#"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/portraits/692A8201-min.jpg') }}" alt=""></div></a>
+                    <a href="{{ asset('images/galleries/portraits/692A8201-min.jpg') }}" data-fancybox="portraits"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/portraits/692A8201-min.jpg') }}" alt=""></div></a>
                 </div>
                 <div class="photoStack">
-                    <a href="#"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/portraits/692A9982-min.jpg') }}" alt=""></div></a>
+                    <a href="{{ asset('images/galleries/portraits/692A9982-min.jpg') }}" data-fancybox="portraits"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/portraits/692A9982-min.jpg') }}" alt=""></div></a>
                 </div>
                 <div class="photoStack">
-                    <a href="#"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/portraits/692A4959-2-min.jpg') }}" alt=""></div></a>
+                    <a href="{{ asset('images/galleries/portraits/692A4959-2-min.jpg') }}" data-fancybox="portraits"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/portraits/692A4959-2-min.jpg') }}" alt=""></div></a>
                 </div>
                 <div class="photoStack">
-                    <a href="#"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/portraits/692A8136-min.jpg') }}" alt=""></div></a>
+                    <a href="{{ asset('images/galleries/portraits/692A8136-min.jpg') }}" data-fancybox="portraits"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/portraits/692A8136-min.jpg') }}" alt=""></div></a>
                 </div>
             </div>
 
