@@ -9,7 +9,7 @@
             <a href="/photography/weddings">
                 <div class="d-flex flex-column">
                     <div class="photoStack" id="weddings">
-                        <div class="photoCard photoCard-1"><img src="{{ asset('images/galleries/weddings/hughes_140921_173335_full-min.jpg') }}" alt=""></div>
+                        <div class="photoCard photoCard-1"><img src="{{ asset('images/galleries/weddings/1-hughes_140921_173335_full-min.jpg') }}" alt=""></div>
                         {{-- <div class="photoCard photoCard-2-fog"></div>
                         <div class="photoCard photoCard-2"><img src="{{ asset('images/galleries/weddings/692A7991-min.jpg') }}" alt=""></div>
                         <div class="photoCard photoCard-3-fog"></div>
