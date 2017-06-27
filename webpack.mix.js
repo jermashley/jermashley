@@ -38,5 +38,7 @@ mix.js('resources/assets/js/app.js', 'public/js')
 
 mix.copy('resources/assets/images', 'public/images', false)
    .copy('resources/assets/fonts', 'public/fonts', false)
+   .copy('node_modules/jquery/dist/jquery.slim.min.js', 'public/js', false)
+   .copy('node_modules/tether/dist/js/tether.min.js', 'public/js', false)
    .copy('node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css', 'public/css', false)
    .copy('node_modules/@fancyapps/fancybox/dist/jquery.fancybox.js', 'public/js', false);
