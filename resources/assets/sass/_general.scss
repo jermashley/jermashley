@@ -37,48 +37,23 @@ body {
 
 .contactContainer {
 	width: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-	margin-top: 4rem;
-	@media only screen and (max-width: 800px) {
-		flex-direction: column;
-	}
-	.contact-1 {
-		position: relative;
-		width: 30%;
-		min-height: 35rem;
-		display: flex;
-		flex-direction: column;
-		justify-content: space-between;
-		order: 1;
-		@media only screen and (max-width: 800px) {
-			width: 100%;
-			order: 2;
-			margin-bottom: 4rem;
-		}
-		.imageTitle {
-			max-width: 30rem;
+	margin: 4rem 0 0 0;
+	.about {
+		margin-top: 4rem;
+		max-width: 50rem;
+		h4 {
+			margin-bottom: 2rem;
 		}
 	}
-	.contact-2 {
-		width: 30%;
-		order: 2;
-		@media only screen and (max-width: 800px) {
-			width: 100%;
-			order: 1;
+	.contactForm {
+		margin-top: 0;
+		h3 {
+			margin: 0 0 2rem 2rem;
 		}
-	}
-	.contact-3 {
-		width: 30%;
-		p {
-			width: 75%;
-		}
-		order: 3;
-		@media only screen and (max-width: 800px) {
-			width: 100%;
-			p {
-				width: 100%;
+		@media only screen and (max-width: 768px) {
+			margin-top: 4rem;
+			h3 {
+				margin: 0 0 2rem 0;
 			}
 		}
 	}
@@ -86,28 +61,35 @@ body {
 
 .contactFormCard {
 	margin: 0 2rem;
+	background-color: rgba(255,255,255,1);
+	padding: 2rem 2rem 5rem;
+	position: relative;
 	@media only screen and (max-width: 800px) {
 		margin: 0 0 4rem;
 	}
-	padding: 2rem 2rem 5rem;
-	position: relative;
 	input[type=text],
 	input[type=email],
 	textarea {
 		display: block;
 		width: 100%;
-		border-top: 0px;
-		border-right: 0px;
+		border-top: 0;
+		border-right: 0;
 		border-bottom: .3rem solid $brand-primary;
-		border-left: 0px;
+		border-left: .3rem rgba(255,255,255,0);
 		padding: 1rem;
 		background: rgba(255,255,255,1);
 		margin-bottom: 2rem;
+		resize: none;
+		transition: 100ms ease-in-out;
 		&::placeholder {
-			font-size: .85rem;
-			font-weight: 700;
+			font-weight: 900;
 			text-transform: uppercase;
 			color: rgba(200,200,200,1);
+		}
+		&:focus {
+			outline: 0 none;
+			border-left: .3rem solid $brand-primary;
+			background-color: lighten($brand-primary, 32%);
 		}
 	}
 	button {

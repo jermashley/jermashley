@@ -257,8 +257,12 @@
 // Contact
 
 .contactImage {
-	max-width: 30rem;
-	height: 30rem;
+	position: relative;
+	max-width: 35rem;
+	height: 24rem;
+	@media only screen and (max-width: 800px) {
+		max-width: 100%;
+	}
 	border-radius: .5rem;
 	overflow: hidden;
 }

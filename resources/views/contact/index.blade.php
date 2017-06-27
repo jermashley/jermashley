@@ -5,20 +5,23 @@
     <div class="pageContent">
         <h1 class="pageHeading">Contact</h1>
 
-        <div class="contactContainer">
-            <div class="contact-1">
-                <div class="">
-                    <div class="imageComp contactImage dropShadow-1">
-                        <div class="imageComp gradientOverlay"></div>
-                        <div class="imageComp primaryBrandOverlay"></div>
-                        <div class="imageComp imageBase"><img src="{{ asset('images/jerm-portrait.jpg') }}" alt=""></div>
-                    </div>
+        <div class="contactContainer row p-0">
+
+            <div class="col-lg-6 col-md-12">
+                <div class="contactImage dropShadow-1">
+                    <div class="imageComp gradientOverlay"></div>
+                    <div class="imageComp primaryBrandOverlay"></div>
+                    <div class="imageComp imageBase"><img src="{{ asset('images/jerm-portrait.jpg') }}" alt=""></div>
                 </div>
-                <div class="imageTitle">
-                    <h5>You can also reach me by e-mail at <a href="mailto:jerm@jermashley.me">jerm@jermashley.me</a>, or by using the form.</h5>
+                <div class="about">
+                    <h4>Quick About Me</h4>
+                    <p>Plantronics with its GN Netcom wireless headset creates the next generation of wireless headset and other products such as wireless amplifiers, and wireless headset telephone.</p>
+
+                    <p>You can get a wireless headset that is completely without wires or one that requires a belt pack. The ones that are completely wire free are made up of a headset worn on your head that talks to a base unit that is attached to your telephone with no wire connections between your headset and your phone. These wireless headset products represent the latest in sophisticated technology for communication or listening. Examples of wireless headset models are the Plantronics CS50, Plantronics CS55, the Plantronics 510S and the GN Netcom 9120.</p>
                 </div>
             </div>
-            <div class="contact-2 flex-first">
+            <div class="col-lg-6 col-md-12 contactForm">
+                <h3>Send me a Message</h3>
                 <div class="contactFormCard dropShadow-1">
                     <form class="" action="index.html" method="post">
                         <input name="name" type="text" class="" id="name" aria-describedby="name" placeholder="Your Name">
@@ -27,12 +30,9 @@
                         <button>Submit</button>
                     </form>
                 </div>
-            </div>
-            <div class="contact-3">
-                <h4>Quick About Me</h4>
-                <p>Plantronics with its GN Netcom wireless headset creates the next generation of wireless headset and other products such as wireless amplifiers, and wireless headset telephone.</p>
-
-                <p>You can get a wireless headset that is completely without wires or one that requires a belt pack. The ones that are completely wire free are made up of a headset worn on your head that talks to a base unit that is attached to your telephone with no wire connections between your headset and your phone. These wireless headset products represent the latest in sophisticated technology for communication or listening. Examples of wireless headset models are the Plantronics CS50, Plantronics CS55, the Plantronics 510S and the GN Netcom 9120.</p>
+                <div class="formFooter">
+                    <h5>You can also reach me by e-mail at <a href="mailto:jerm@jermashley.me">jerm@jermashley.me</a>, or by using the form.</h5>
+                </div>
             </div>
         </div>
 

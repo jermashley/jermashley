@@ -10,6 +10,23 @@ a {
     }
 }
 
+h3 {
+    color: $text-primary;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h4 {
+    color: $text-primary;
+    font-weight: 400;
+}
+
+p {
+    color: $text-primary;
+    line-height: 2rem;
+}
+
+
 // Home
 
 .homeHeroText {
@@ -39,22 +56,26 @@ a {
     color: $text-primary;
 }
 
+.formFooter {
+    margin-top: 4rem;
+    padding: 0 2rem;
+    @media only screen and (max-width: 768px) {
+        margin-top: 2rem;
+        padding: 0;
+    }
+}
+
 
 
 
 // Photography
 .imageTitle {
+    h4 {
+        font-weight: 700;
+        text-transform: uppercase;
+    }
     height: 4rem;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    h4 {
-        color: $text-primary;
-        font-weight: 700;
-        text-transform: uppercase;
-    }
-    h3 {
-        color: $text-primary;
-        font-weight: 400;
-    }
 }
