@@ -10,20 +10,41 @@ a {
     }
 }
 
+h2 {
+    font-size: 3rem;
+    color: $text-primary;
+    font-weight: 300;
+    margin-bottom: 2.5rem;
+}
+
 h3 {
+    color: $text-primary;
+    font-weight: 400;
+}
+
+h4 {
     color: $text-primary;
     font-weight: 700;
     text-transform: uppercase;
 }
 
-h4 {
+h5 {
     color: $text-primary;
-    font-weight: 400;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+h6 {
+    color: $text-primary;
+    font-size: .9rem;
+    font-weight: 700;
+    text-transform: uppercase;
 }
 
 p {
     color: $text-primary;
     line-height: 2rem;
+    margin-bottom: 1.5rem;
 }
 
 
@@ -55,6 +76,29 @@ p {
     font-weight: 900;
     color: $text-primary;
 }
+
+.projectHeading {
+    font-size: 3.25rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: $text-primary;
+}
+
+
+
+// Text Bodies
+
+.projectDetails {
+    padding-left: 5rem;
+    padding-right: 10vw;
+    @media only screen and (max-width: 991px) {
+        padding: 0 3rem;
+        margin-top: 5rem;
+    }
+}
+
+
+// Footer
 
 .formFooter {
     margin-top: 4rem;

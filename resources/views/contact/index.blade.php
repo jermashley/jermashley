@@ -21,7 +21,7 @@
                 </div>
             </div>
             <div class="col-lg-6 col-md-12 contactForm">
-                <h3>Send me a Message</h3>
+                <h4>Send me a Message</h4>
                 <div class="contactFormCard dropShadow-1">
                     <form class="" action="index.html" method="post">
                         <input name="name" type="text" class="" id="name" aria-describedby="name" placeholder="Your Name">

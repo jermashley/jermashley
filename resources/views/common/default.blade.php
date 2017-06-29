@@ -45,10 +45,10 @@
             <div class="d-flex flex-row justify-content-center">
                 <div class="d-flex flex-column">
                     <div>
-                        <a href=""><i class="fa fa-facebook-square"></i></a>
-                        <a href=""><i class="fa fa-twitter-square"></i></a>
-                        <a href=""><i class="fa fa-instagram"></i></a>
-                        <a href=""><i class="fa fa-flickr"></i></a>
+                        <a href="//www.facebook.com/photo.jermashley/" target="_blank"><i class="fa fa-facebook-square"></i></a>
+                        <a href="//twitter.com/JermAshley" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                        <a href="//www.instagram.com/photo.jermashley/" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a href="//www.flickr.com/photos/jermashley/" target="_blank"><i class="fa fa-flickr"></i></a>
                     </div>
                     <div>
                         <p class="copyright">Jeremiah Ashley &copy; 2017</p>
