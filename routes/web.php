@@ -23,6 +23,10 @@ Route::get('/portfolio', function () {
     return view('portfolio.index');
 });
 
+Route::get('/portfolio/pft-website', function () {
+    return view('portfolio.pft-website');
+});
+
 
 // Photography
 Route::get('/photography', function () {
