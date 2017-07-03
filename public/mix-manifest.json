@@ -1,10 +1,12 @@
 {
-  "/js/app.js": "/js/app.c73372aa674dab4bc95c.js",
-  "/css/app.css": "/css/app.eca1d42dc4f8ae6287040ab67e5230e2.css",
+  "/js/app.js": "/js/app.6e728b3f3021eaba15c4.js",
+  "/css/app.css": "/css/app.743134ad459ca24cfbf44cae4f90be47.css",
   "/mix.js": "/mix.js",
   "/js/gallery.js": "/js/gallery.js",
-  "/css/bootstrap.css": "/css/bootstrap.da3c110ebd3b1170b681b5be1160a19a.css",
-  "/js/bootstrap.js": "/js/bootstrap.5b06f6dbef228e0ba6fa.js",
-  "/js/jquery.fancybox.js": "/js/jquery.fancybox.js",
-  "/css/jquery.fancybox.css": "/css/jquery.fancybox.css"
+  "/css/bootstrap.css": "/css/bootstrap.ebebb1137b818e80d20b4282b1a9607a.css",
+  "/js/bootstrap.js": "/js/bootstrap.fd8e2ea2b96f37aab3c7.js",
+  "/js/jquery.fancybox.js": "/js/jquery.fancybox.18981721679dd1e7d8f1.js",
+  "/css/jquery.fancybox.css": "/css/jquery.fancybox.96885aedd7cfb07e55f6b0c2c0802ec3.css",
+  "/js/jquery.slim.min.js": "/js/jquery.slim.min.7c846e65a51ca112357b.js",
+  "/js/tether.min.js": "/js/tether.min.e5ca6c7133b261482786.js"
 }

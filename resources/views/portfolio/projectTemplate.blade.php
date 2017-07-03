@@ -10,9 +10,6 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-12">
 					<div class="projectHero dropShadow-1">
-			            <div class="imageComp gradientOverlay"></div>
-			            <div class="imageComp primaryBrandOverlay"></div>
-			            <div class="imageComp dimmer-1"></div>
 			            <div class="imageComp imageBase"><img src="{{ asset('//unsplash.it/1024/?random') }}" alt=""></div>
 					</div>
 				</div>
@@ -52,25 +49,25 @@
 				
 				<div class="py-4 col-lg-6 col-md-12 d-flex flex-row flex-wrap justify-content-around">
 					<a href="">
-						<div class="projectImages desat-animated dropShadow-2">
+						<div class="projectImages desat-animated dropShadow-2 translateY">
 							<div class="expandFS"><i class="fa fa-expand text-white"></i></div>
 				            <div class="imageComp imageBase"><img src="{{ asset('//unsplash.it/1020/?random') }}" alt=""></div>
 						</div>
 					</a>
 					<a href="">
-						<div class="projectImages desat-animated dropShadow-2">
+						<div class="projectImages desat-animated dropShadow-2 translateY">
 							<div class="expandFS"><i class="fa fa-expand text-white"></i></div>
 				            <div class="imageComp imageBase"><img src="{{ asset('//unsplash.it/1020/?random') }}" alt=""></div>
 						</div>
 					</a>
 					<a href="">
-						<div class="projectImages desat-animated dropShadow-2">
+						<div class="projectImages desat-animated dropShadow-2 translateY">
 							<div class="expandFS"><i class="fa fa-expand text-white"></i></div>
 				            <div class="imageComp imageBase"><img src="{{ asset('//unsplash.it/1020/?random') }}" alt=""></div>
 						</div>
 					</a>
 					<a href="">
-						<div class="projectImages desat-animated dropShadow-2">
+						<div class="projectImages desat-animated dropShadow-2 translateY">
 							<div class="expandFS"><i class="fa fa-expand text-white"></i></div>
 				            <div class="imageComp imageBase"><img src="{{ asset('//unsplash.it/1020/?random') }}" alt=""></div>
 						</div>

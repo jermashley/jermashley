@@ -10,9 +10,6 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-12">
 					<div class="projectHero dropShadow-1">
-			            <div class="imageComp gradientOverlay"></div>
-			            <div class="imageComp primaryBrandOverlay"></div>
-			            <div class="imageComp lighten-1"></div>
 			            <div class="imageComp imageBase"><img src="{{ asset('images/portfolio/pft-website/pft-min.jpg') }}" alt=""></div>
 					</div>
 				</div>
@@ -32,8 +29,9 @@
 							<li>Create a website that reflected the company's new brand.</li>
 							<li>Design a Video-on-Demand platform.</li>
 						</ul>
-						
 					</div>
+					<span class="tag">web design</span>
+					<span class="tag">ui design</span>
 				</div>
 			</div>
 		</div>
@@ -52,31 +50,31 @@
 				
 				<div class="py-4 col-lg-6 col-md-12 d-flex flex-row flex-wrap justify-content-around">
 					<a href="{{ asset('images/portfolio/pft-website/homepage-min.jpg') }}" data-fancybox="pft-website" data-caption="Media Player with sidebar including series videos and related content.">
-						<div class="projectImages desat-animated dropShadow-2">
+						<div class="projectImages desat-animated dropShadow-2 translateY">
 							<div class="expandFS"><i class="fa fa-expand text-white"></i></div>
 				            <div class="imageComp imageBase"><img src="{{ asset('images/portfolio/pft-website/homepage-min.jpg') }}" alt=""></div>
 						</div>
 					</a>
 					<a href="{{ asset('images/portfolio/pft-website/more_to_life-min.jpg') }}" data-fancybox="pft-website">
-						<div class="projectImages desat-animated dropShadow-2">
+						<div class="projectImages desat-animated dropShadow-2 translateY">
 							<div class="expandFS"><i class="fa fa-expand text-white"></i></div>
 				            <div class="imageComp imageBase"><img src="{{ asset('images/portfolio/pft-website/more_to_life-min.jpg') }}" alt=""></div>
 						</div>
 					</a>
 					<a href="{{ asset('images/portfolio/pft-website/search_page-min.jpg') }}" data-fancybox="pft-website">
-						<div class="projectImages desat-animated dropShadow-2">
+						<div class="projectImages desat-animated dropShadow-2 translateY">
 							<div class="expandFS"><i class="fa fa-expand text-white"></i></div>
 				            <div class="imageComp imageBase"><img src="{{ asset('images/portfolio/pft-website/search_page-min.jpg') }}" alt=""></div>
 						</div>
 					</a>
 					<a href="{{ asset('images/portfolio/pft-website/media_center_player-min.jpg') }}" data-fancybox="pft-website">
-						<div class="projectImages desat-animated dropShadow-2">
+						<div class="projectImages desat-animated dropShadow-2 translateY">
 							<div class="expandFS"><i class="fa fa-expand text-white"></i></div>
 				            <div class="imageComp imageBase"><img src="{{ asset('images/portfolio/pft-website/media_center_player-min.jpg') }}" alt=""></div>
 						</div>
 					</a>
 					<a href="{{ asset('images/portfolio/pft-website/user_account-min.jpg') }}" data-fancybox="pft-website">
-						<div class="projectImages desat-animated dropShadow-2">
+						<div class="projectImages desat-animated dropShadow-2 translateY">
 							<div class="expandFS"><i class="fa fa-expand text-white"></i></div>
 				            <div class="imageComp imageBase"><img src="{{ asset('images/portfolio/pft-website/user_account-min.jpg') }}" alt=""></div>
 						</div>

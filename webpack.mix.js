@@ -1,25 +1,5 @@
 const { mix } = require('laravel-mix');
 
-// let ImageminPlugin = require( 'imagemin-webpack-plugin' ).default;
-//
-//
-// mix.webpackConfig( {
-//     plugins: [
-//         new ImageminPlugin( {
-// //            disable: process.env.NODE_ENV !== 'production', // Disable during development
-// 			imageminMozjpeg: {
-// 			  quality: 50,
-// 			  progressive: true
-// 			},
-// 			pngquant: {
-// 		        quality: '50-75',
-// 		    },
-// 			test: /\.(jpe?g|png|gif|svg)$/i,
-// 	        }
-// 		),
-//     ],
-// } )
-
 /*
  |--------------------------------------------------------------------------
  | Mix Asset Management
@@ -37,8 +17,8 @@ mix.js('resources/assets/js/app.js', 'public/js')
    .sass('vendor/twbs/bootstrap/scss/bootstrap.scss', 'public/css')
    .version();
 
-mix.copy('resources/assets/images', 'public/images', false)
-   .copy('resources/assets/fonts', 'public/fonts', false)
+mix.copy('resources/assets/fonts', 'public/fonts', false)
+   .copy('resources/assets/images', 'public/images', false)
    .copy('node_modules/jquery/dist/jquery.slim.min.js', 'public/js', false)
    .copy('node_modules/tether/dist/js/tether.min.js', 'public/js', false)
    .copy('node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css', 'public/css', false)

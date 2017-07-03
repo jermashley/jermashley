@@ -15,29 +15,29 @@
             </div>
 
             <div class="gallerySlider">
-                <div class="photoStack">
-                    <a href="{{ asset('images/galleries/point-n-shoot/IMG_1677-min.jpg') }}" data-fancybox="point-n-shoot"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/point-n-shoot/IMG_1677-min.jpg') }}" alt=""></div></a>
+                <div class="photoStack dropShadow-4 translateY">
+                    <a href="{{ asset('images/galleries/point-n-shoot/IMG_1677-min.jpg') }}" data-fancybox="point-n-shoot"><div class="photoCard photoCardGallery"><img src="{{ asset('images/galleries/point-n-shoot/IMG_1677-min.jpg') }}" alt=""></div></a>
                 </div>
-                <div class="photoStack">
-                    <a href="{{ asset('images/galleries/point-n-shoot/IMG_1005-min.jpg') }}" data-fancybox="point-n-shoot"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/point-n-shoot/IMG_1005-min.jpg') }}" alt=""></div></a>
+                <div class="photoStack dropShadow-4 translateY">
+                    <a href="{{ asset('images/galleries/point-n-shoot/IMG_1005-min.jpg') }}" data-fancybox="point-n-shoot"><div class="photoCard photoCardGallery"><img src="{{ asset('images/galleries/point-n-shoot/IMG_1005-min.jpg') }}" alt=""></div></a>
                 </div>
-                <div class="photoStack">
-                    <a href="{{ asset('images/galleries/point-n-shoot/692A5935-min.jpg') }}" data-fancybox="point-n-shoot"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/point-n-shoot/692A5935-min.jpg') }}" alt=""></div></a>
+                <div class="photoStack dropShadow-4 translateY">
+                    <a href="{{ asset('images/galleries/point-n-shoot/692A5935-min.jpg') }}" data-fancybox="point-n-shoot"><div class="photoCard photoCardGallery"><img src="{{ asset('images/galleries/point-n-shoot/692A5935-min.jpg') }}" alt=""></div></a>
                 </div>
-                <div class="photoStack">
-                    <a href="{{ asset('images/galleries/point-n-shoot/692A1718-HDR-Pano-min.jpg') }}" data-fancybox="point-n-shoot"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/point-n-shoot/692A1718-HDR-Pano-min.jpg') }}" alt=""></div></a>
+                <div class="photoStack dropShadow-4 translateY">
+                    <a href="{{ asset('images/galleries/point-n-shoot/692A1718-HDR-Pano-min.jpg') }}" data-fancybox="point-n-shoot"><div class="photoCard photoCardGallery"><img src="{{ asset('images/galleries/point-n-shoot/692A1718-HDR-Pano-min.jpg') }}" alt=""></div></a>
                 </div>
-                <div class="photoStack">
-                    <a href="{{ asset('images/galleries/point-n-shoot/692A4457-min.jpg') }}" data-fancybox="point-n-shoot"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/point-n-shoot/692A4457-min.jpg') }}" alt=""></div></a>
+                <div class="photoStack dropShadow-4 translateY">
+                    <a href="{{ asset('images/galleries/point-n-shoot/692A4457-min.jpg') }}" data-fancybox="point-n-shoot"><div class="photoCard photoCardGallery"><img src="{{ asset('images/galleries/point-n-shoot/692A4457-min.jpg') }}" alt=""></div></a>
                 </div>
-                <div class="photoStack">
-                    <a href="{{ asset('images/galleries/point-n-shoot/692A6868-min.jpg') }}" data-fancybox="point-n-shoot"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/point-n-shoot/692A6868-min.jpg') }}" alt=""></div></a>
+                <div class="photoStack dropShadow-4 translateY">
+                    <a href="{{ asset('images/galleries/point-n-shoot/692A6868-min.jpg') }}" data-fancybox="point-n-shoot"><div class="photoCard photoCardGallery"><img src="{{ asset('images/galleries/point-n-shoot/692A6868-min.jpg') }}" alt=""></div></a>
                 </div>
-                <div class="photoStack">
-                    <a href="{{ asset('images/galleries/point-n-shoot/692A3849-HDR_large-min.jpg') }}" data-fancybox="point-n-shoot"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/point-n-shoot/692A3849-HDR_large-min.jpg') }}" alt=""></div></a>
+                <div class="photoStack dropShadow-4 translateY">
+                    <a href="{{ asset('images/galleries/point-n-shoot/692A3849-HDR_large-min.jpg') }}" data-fancybox="point-n-shoot"><div class="photoCard photoCardGallery"><img src="{{ asset('images/galleries/point-n-shoot/692A3849-HDR_large-min.jpg') }}" alt=""></div></a>
                 </div>
-                <div class="photoStack">
-                    <a href="{{ asset('images/galleries/point-n-shoot/692A4564-min.jpg') }}" data-fancybox="point-n-shoot"><div class="photoCard photoCardGallery dropShadow-1"><img src="{{ asset('images/galleries/point-n-shoot/692A4564-min.jpg') }}" alt=""></div></a>
+                <div class="photoStack dropShadow-4 translateY">
+                    <a href="{{ asset('images/galleries/point-n-shoot/692A4564-min.jpg') }}" data-fancybox="point-n-shoot"><div class="photoCard photoCardGallery"><img src="{{ asset('images/galleries/point-n-shoot/692A4564-min.jpg') }}" alt=""></div></a>
                 </div>
             </div>
 

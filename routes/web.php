@@ -27,6 +27,10 @@ Route::get('/portfolio/pft-website', function () {
     return view('portfolio.pft-website');
 });
 
+Route::get('/portfolio/pmu-intro', function () {
+    return view('portfolio.pmu-intro');
+});
+
 
 // Photography
 Route::get('/photography', function () {
