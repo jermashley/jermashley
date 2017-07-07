@@ -13,8 +13,8 @@ class ContactController extends Controller
         // dd($request->all());
         Mail::to('jeremiah.ashley@live.com')->send(new Contact((object)$request->all()));
 
-        \Session::flash('contactConfirm', 'Thank you for contacting us! We will get in touch with you as soon as possible.');
+        \Session::flash('contactConfirm', 'Thank you for contacting me! I will get in touch with you as soon as possible.');
 
-        return redirect('/');
+        return redirect('contact');
     }
 }

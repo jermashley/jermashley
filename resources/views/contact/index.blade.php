@@ -20,11 +20,18 @@
             <div class="col-lg-6 col-md-12 contactForm">
                 <h4>Send me a Message</h4>
                 <div class="contactFormCard dropShadow-1">
+                        @if (Session::has('contactConfirm'))
+                            <div class="contactAlert">
+                                {{ Session::get('contactConfirm') }}
+                            </div>
+                        @endif
+
+
                     <form class=""  method="post" action="{{ route('email') }}">
                         {{ csrf_field() }}
-                        <input name="name" type="text" class="" id="name" aria-describedby="name" placeholder="Your Name">
-                        <input name="email" type="email" class="" id="email" aria-describedby="email" placeholder="Email Address">
-                        <textarea name="message" type="text" id="message" aria-describedby="message" rows="5" placeholder="Type Your Message Here"></textarea>
+                        <input name="name" type="text" class="" id="name" aria-describedby="name" placeholder="Your Name" required>
+                        <input name="email" type="email" class="" id="email" aria-describedby="email" placeholder="Email Address" required>
+                        <textarea name="message" type="text" id="message" aria-describedby="message" rows="5" placeholder="Type Your Message Here" required></textarea>
                         <button type="submit" role="button">Submit</button>
                     </form>
                 </div>
