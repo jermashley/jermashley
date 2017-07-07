@@ -27,8 +27,8 @@ Route::get('/portfolio/pft-website', function () {
     return view('portfolio.pft-website');
 });
 
-Route::get('/portfolio/pmu-intro', function () {
-    return view('portfolio.pmu-intro');
+Route::get('/portfolio/purple-monkey', function () {
+    return view('portfolio.purple-monkey');
 });
 
 

@@ -40,12 +40,15 @@
 			<div class="row">
 				<div class="col-lg-6 col-md-12 projectDetails">
 					<h2>About this project</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum doloribus fuga ullam, non placeat dolore blanditiis ipsa aut reprehenderit fugiat tempore omnis, possimus minus, veniam corrupti eveniet, tempora recusandae voluptas!</p>
-					<h4>Stage 1</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis non vero magnam fugit animi nobis molestiae laborum et quidem ducimus ratione officiis dolore explicabo sapiente, voluptatibus repellat. Commodi quo, dolor.</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo dolores ipsum corporis, enim adipisci provident obcaecati eos, nostrum alias blanditiis accusamus et ab, doloremque ipsam deserunt amet labore numquam tempore?</p>
-					<h4>Stage 2</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae eveniet obcaecati totam quam dolores, voluptas ipsam numquam natus repudiandae architecto laborum tempora, amet debitis impedit aspernatur quaerat consequuntur quae nihil!</p>
+					<p>One of my first major projects in front-end design. <em>Passion for Truth</em> was in the process of building out a Video-on-Demand platform and needed to launch it alongside their updated branding. I lead the UI design and worked with <a href="https://twitter.com/medalink7" target="_blank">Eric Percifield</a> to design an intuitive user experience.</p>
+					<h4>The Scope</h4>
+					<p><em>Passion for Truth</em> had recently undergone a rebrand that was in the final stages of internal review when we started this project. To go reflect the new branding, management wanted to launch an updated website. This website would not only replace the previous one, but also pack new features &emdash; namely a Video-on-Demand platform.</p>
+					<h4>The Timeline</h4>
+					<p>Due to a modestly-sized staff the <a href="http://www.ascentadvising.com/?p=80" target="_blank">high-level prioratization of projects</a>, we initialized the design of the site on our own as a fast-tracked, side-burner project. The goal was simple, design a website that is welcoming and clear to new users yet remains useful and extensive for the current userbase.</p>
+					<h4>The Execution</h4>
+					<p>Our goal was two-fold. We wanted new users to feel welcome and have a clear path to navigate as they learned more about the organization. New visitors needed to be guided in such a way that they encountered targeted material that showed them vision of the organization.</p>
+					<p>It was, however, equally imperative to maintain a robustness in features and content for the current userbase. Returning visitors needed to use the least amount of clicks or taps to find the content they were looking for &emdash; this through search queries or clear and simple navigation.</p>
+					<p>The Video-on-Demand library was the was the gem of the platform. Users could easily find content and follow suggestions for related material in a variety of mediums.</p>
 				</div>
 				
 				<div class="py-4 col-lg-6 col-md-12 d-flex flex-row flex-wrap justify-content-around">
