@@ -27,7 +27,7 @@
 						<h5>Goals</h5>
 						<ul class="list-unstyled">
 							<li>Create a website that reflected the company's new brand.</li>
-							<li>Design a Video-on-Demand platform.</li>
+							<li>Design the user interface for a Video-on-Demand platform.</li>
 						</ul>
 					</div>
 					<span class="tag">web design</span>

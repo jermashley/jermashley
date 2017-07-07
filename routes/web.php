@@ -15,13 +15,13 @@
 // Home
 Route::get('/', function () {
     return view('home.home');
-});
+})->name('home');
 
 
 // Portfolio
 Route::get('/portfolio', function () {
     return view('portfolio.index');
-});
+})->name('portfolio');
 
 Route::get('/portfolio/pft-website', function () {
     return view('portfolio.pft-website');
@@ -35,7 +35,7 @@ Route::get('/portfolio/pmu-intro', function () {
 // Photography
 Route::get('/photography', function () {
     return view('photography.index');
-});
+})->name('photography');
 
 Route::get('/photography/weddings', function () {
     return view('photography.weddings');
@@ -59,4 +59,9 @@ Route::get('/blog', function () {
 // Contact
 Route::get('/contact', function () {
     return view('contact.index');
-});
+})->name('contact');
+
+
+
+// Email Routes
+Route::post('/email', 'ContactController@sendEmail')->name('email');

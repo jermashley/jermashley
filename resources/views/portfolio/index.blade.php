@@ -6,7 +6,7 @@
         <h1 class="pageHeading">Portfolio</h1>
 		
 		<div class="contentContainer">
-			<div class="d-flex flex-row flex-wrap justify-content-around">
+			<div class="d-flex flex-row flex-wrap justify-content-center">
 				<div class="cardBase dropShadow-4 translateY">
 					<div class="cardHero imageContainer">
 			            <div class="imageComp imageBase"><img src="{{ asset('images/portfolio/pft-website/pft-min.jpg') }}" alt=""></div>
@@ -37,33 +37,8 @@
 					</div>
 					<button><a href="/portfolio/pmu-intro">Read More</a></button>
 				</div>
-
-				<div class="cardBase dropShadow-4 translateY">
-					<div class="cardHero imageContainer">
-			            <div class="imageComp imageBase"><img src="{{ asset('//unsplash.it/1024/?random') }}" alt=""></div>
-					</div>
-					<div class="cardContent">
-						<h4>Project Title</h4>
-						<h6>December 11, 2017</h6>
-						<p>Kowloon car towards realism smart-cardboard Legba skyscraper. Dolphin narrative 3D-printed RAF city post-knife nano-gang.-space concrete courier construct corrupted hacker Tokyo range-rover woman numinous otaku sunglasses tank-traps singularity.</p>
-					</div>
-					<button><a href="">Read More</a></button>
-				</div>
-
-				<div class="cardBase dropShadow-4 translateY">
-					<div class="cardHero imageContainer">
-			            <div class="imageComp imageBase"><img src="{{ asset('//unsplash.it/1024/?random') }}" alt=""></div>
-					</div>
-					<div class="cardContent">
-						<h4>Project Title</h4>
-						<h6>December 11, 2017</h6>
-						<p>Kowloon car towards realism smart-cardboard Legba skyscraper. Dolphin narrative 3D-printed RAF city post-knife nano-gang.-space concrete courier construct corrupted hacker Tokyo range-rover woman numinous otaku sunglasses tank-traps singularity.</p>
-					</div>
-					<button><a href="">Read More</a></button>
-				</div>
 			</div>
 		</div>
-
     </div>
 
 @endsection
