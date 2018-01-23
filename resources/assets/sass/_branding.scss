@@ -1,0 +1,75 @@
+// Blend Modes
+$multiply: multiply;
+$screen: screen;
+$add: add;
+$overlay: overlay;
+$soft-light: soft-light;
+$saturation: saturation;
+
+$blend-modes: (
+    multiply: $multiply,
+    screen: $screen,
+    add: $add,
+    overlay: $overlay,
+    soft-light: $soft-light,
+    saturation: $saturation,
+)   !default;
+
+
+// Greyscale
+$grey-100: hsla(0,0,100,1);
+$grey-90: hsla(0,0,90,1);
+$grey-80: hsla(0,0,80,1);
+$grey-70: hsla(0,0,70,1);
+$grey-60: hsla(0,0,60,1);
+$grey-50: hsla(0,0,50,1);
+$grey-40: hsla(0,0,40,1);
+$grey-30: hsla(0,0,30,1);
+$grey-20: hsla(0,0,20,1);
+$grey-10: hsla(0,0,10,1);
+$grey-0: hsla(0,0,0,1);
+
+$grey-values: (
+    grey-100: $grey-100,
+    grey-90: $grey-90,
+    grey-80: $grey-80,
+    grey-70: $grey-70,
+    grey-60: $grey-60,
+    grey-50: $grey-50,
+    grey-40: $grey-40,
+    grey-30: $grey-30,
+    grey-20: $grey-20,
+    grey-10:$grey-10,
+    grey-0:$grey-0,
+)   !default;
+
+
+// Basic Color
+$white: $grey-100;
+$black: $grey-0;
+$red: rgba(242, 85, 116, 1);
+$green: rgba(106, 229, 118, 1);
+$blue: rgba(115, 181, 229, 1);
+$yellow: rgba(229, 220, 126, 1);
+$cyan: rgba(115, 222, 229, 1);
+$magenta: rgba(237, 107, 193, 1);
+$orange: rgba(245, 177, 76, 1);
+$pink: rgba(240, 173, 229, 1);
+$brown: rgba(196, 153, 102, 1);
+$terminal-green: rgba(51, 255, 102, 1);
+
+
+// States
+$critical: $red;
+$success: $green;
+$info: $blue;
+$warning: $yellow;
+$info-alt: $cyan;
+$danger: $orange;
+
+
+// Branding
+$brand-primary: rgba(108, 217, 190, 1);
+$brand-primary-dark: rgba(32, 128, 104, 1);
+$brand-accent: rgba(229, 115, 92, 1);
+$text-primary: $grey-30;
