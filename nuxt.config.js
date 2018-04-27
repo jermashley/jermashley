@@ -3,11 +3,11 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: 'rebase.jermashley',
+    title: 'JermAshley Website',
     meta: [
       { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'JermAshley Website' }
+      { name: 'viewport', content: 'width=device-width, initial-scale=1, ' },
+      { hid: 'description', name: 'description', content: 'Jeremiah Ashley\'s website. Find my photography, design, development, and writings.' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -29,7 +29,7 @@ module.exports = {
         config.module.rules.push({
           enforce: 'pre',
           test: /\.(js|vue)$/,
-          loader: 'eslint-loader',
+        //   loader: 'eslint-loader',
           exclude: /(node_modules)/
         })
       }
