@@ -1,0 +1,7 @@
+// Box Shadows
+$box-shadow--none: 0px 0px 0px 0px rgba(var(--grey-10), 0);
+$box-shadow--static: 0px 1px 1px 1px rgba(var(--grey-10), .10);
+$box-shadow--hover: 0px 3px 6px 1px rgba(var(--grey-10), .15);
+
+// Text shadows
+$text-shadow--static: 0px 1px 1px rgba(var(--grey-0), .15);

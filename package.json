@@ -1,25 +1,33 @@
 {
-  "name": "rebase.jermashley",
-  "version": "1.0.0",
-  "description": "JermAshley Website",
-  "author": "Jeremiah Ashley",
-  "private": true,
-  "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
-    "precommit": "npm run lint"
-  },
-  "dependencies": {
-    "nuxt": "^1.0.0"
-  },
-  "devDependencies": {
-    "babel-eslint": "^8.2.1",
-    "eslint": "^4.15.0",
-    "eslint-friendly-formatter": "^3.0.0",
-    "eslint-loader": "^1.7.1",
-    "eslint-plugin-vue": "^4.0.0"
-  }
+	"name": "rebase.jermashley",
+	"version": "1.0.0",
+	"description": "JermAshley Website",
+	"author": "Jeremiah Ashley",
+	"private": true,
+	"config": {
+		"nuxt": {
+			"host": "192.168.0.241",
+			"port": "3000"
+		}
+	},
+	"scripts": {
+		"dev": "nuxt",
+		"build": "nuxt build",
+		"start": "nuxt start",
+		"generate": "nuxt generate",
+		"lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+		"precommit": "npm run lint"
+	},
+	"dependencies": {
+		"nuxt-edge": "^2.0.0-25409247.7d82fad"
+	},
+	"devDependencies": {
+		"babel-eslint": "^8.2.1",
+		"eslint": "^4.15.0",
+		"eslint-friendly-formatter": "^3.0.0",
+		"eslint-loader": "^1.7.1",
+		"eslint-plugin-vue": "^4.0.0",
+		"node-sass": "^4.9.0",
+		"sass-loader": "^7.0.1"
+	}
 }
